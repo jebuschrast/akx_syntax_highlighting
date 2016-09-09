@@ -21,9 +21,9 @@ contexts:
       scope: keyword.operator
     # - comment: Shift
     #   match: \b(SH0|SHL1|SHL2|SHL3|SHL4|SHL8|SHLF|SHR1|SHR2|SHR4|SHR5|SHR8|SHRF|SHX0|SHX1|BH0|BHR1|BHR2|BHR3|BHR4|BHR8|BHRF|BHX0|BHL1|BHL2||BHL3|BHL4|BHL6|BHL8|BHLF)\b
-    #   scope: storage.type.akx
-    - comment: ALU
-      match: (<<|<1|!=|+|-|+M0|+M1|<16|<INV|$|&|#|!)
+    # #   scope: storage.type.akx
+    # - comment: ALU
+    #   match: \b(<<|<1|!=|+|-|+M0|+M1|<16|<INV|$|&|#|!)\b
       scope: support.class
     - comment: LDR
       match: \b(LDR0|LDR1|LDR2|LDR3)\b
